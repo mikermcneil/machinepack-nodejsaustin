@@ -1,0 +1,28 @@
+{
+  "name": "machinepack-nodejsaustin",
+  "version": "0.1.0",
+  "description": "Cool stuff for Node.js Austin.",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "Nodejs Austin",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "^7.0.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^0.2.4"
+  },
+  "machinepack": {
+    "friendlyName": "Nodejs Austin",
+    "machineDir": "machines/",
+    "machines": [
+      "hello"
+    ]
+  }
+}
