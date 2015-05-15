@@ -1,6 +1,6 @@
 {
   "name": "machinepack-nodejsaustin",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Cool stuff for Node.js Austin.",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
